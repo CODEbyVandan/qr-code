@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+.cute-arrest {
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Choose a cute font */
+  color: #ff80bf; /* Cute pink color */
+  animation: bounce 1s infinite alternate; /* Animation added */
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 2em;
+}
+
+@keyframes bounce {
+  to {
+    transform: translateY(-30px);
+  }
+}
